@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/114dbc9d3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="Images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Design And Developer</p>
+                <h1>Hi, I'm <span>Yavi Vaid </span><br>From Rajasthan, India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------About------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A student at JECRC University pursuing BCA in Full-stack Web Design and Development.
+                         During my academic journey, I've had the opportunity to delve into various projects, 
+                         with a significant focus on a capstone project centered around developing a chatbot. 
+                         This project challenged me to apply my programming skills, particularly in natural language
+                          processing and user interface design, to create a functional 
+                          and user-friendly chatbot system.</p>
+                          <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>HTML5 & CSS3</li>
+                                <li>Web Development</li>
+                                <li>UI/UX</li>
+                                <li>JavaScript & ES6+</li>
+                                <li>React & Redux</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>Internship at Oasis</li>
+                                <li><span>2024</span><br>Capstone Project making Chatbot using Python</li>
+                                <li><span>2023-2024</span><br>Team Lead at Abc LLC.</li>
+                                <li><span>2022-2023</span><br>Internship at E-kart commerce</li>
+                                <li><span>2021</span><br>Student Management Project using MySQL</li>
+                            
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2025</span><br>Bachelor at Computer Application<br>JECRC University</li>
+                                <li><span>2021-2022</span><br>Class-XII<br>MGPS </li>
+                                <li><span>2019-2020</span><br>Class-X<br>MGPS</li>
+                                
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------services----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design crafts visually appealing and user-friendly websites, 
+                        including projects like calculators, capstone projects, 
+                        resume builders, and to-do apps, utilizing HTML, CSS, and 
+                        JavaScript to enhance online experiences.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MySQL Developer</h2>
+                    <p>MySQL is used in student development projects to design and manage databases, 
+                        storing student information, 
+                        courses, and enrollments, utilizing SQL queries to interact with 
+                        data and ensure data security.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design is a multidisciplinary 
+                        field that combines market research, information architecture, interaction design, 
+                        development, visual design, and psychology to create user-centered products. 
+                        Projects include wireframing, prototyping, usability testing, and design systems 
+                        development.
+                    </p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work 2.jpg">
+                    <div class="layer">
+                        <h3>Project Management</h3>
+                        <p>Led cross-functional teams to deliver projects on time and within budget, 
+                            utilizing Agile methodologies and strategic planning to achieve objectives. 
+                            Enhanced efficiency and stakeholder satisfaction through effective 
+                            communication and problem-solving.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work 2.1.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>Created a dynamic online shopping website using HTML, CSS, and JavaScript. 
+                            Features include an intuitive user interface, responsive design, and 
+                            interactive elements for browsing products, managing carts, and 
+                            processing transactions seamlessly.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work 3.1.jpg">
+                    <div class="layer">
+                        <h3>Chatbot</h3>
+                        <p>Developed an interactive chatbot using HTML, CSS, and 
+                            JavaScript for an e-shopping site. It provides real-time customer support, 
+                            assists with product searches, 
+                            and facilitates seamless transactions, enhancing user experience and engagement.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-------------content---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>yavivaid412@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7300003903</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/its._yavi?igsh=MXJocnU0NHAwZ2lsNQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yavi-vaid-4aba2124b"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                    </div>
+                    <a href="Images/myCV.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Yavi. All Rights Reserved</p>
+        </div>
+    </div>
+    
+</body>
+</html>
